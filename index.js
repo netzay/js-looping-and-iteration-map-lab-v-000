@@ -7,5 +7,5 @@ function nameToAttributes(drivers){
   return drivers.map(function (element){ }
     let words = element.split(" ");
     
-   return [element.firstName, element.lastName];})
+   return firstName, element.lastName];})
 }
