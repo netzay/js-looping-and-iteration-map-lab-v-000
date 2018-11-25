@@ -9,4 +9,4 @@ function nameToAttributes(drivers){
     
    return { firstName: words[0], lastName: words[1];}
      )}
-}
+};
