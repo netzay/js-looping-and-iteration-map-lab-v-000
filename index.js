@@ -7,5 +7,6 @@ function nameToAttributes(drivers){
   return drivers.map(function (element){ 
     let words = element.split(" ");
     
-   return { firstName: words[0], lastName: words[1];}
+   return { firstName: words[0], lastName: words[1];
+     )}
 }
